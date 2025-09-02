@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: web-scraper-backend
+    env: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: python backend/app.py
